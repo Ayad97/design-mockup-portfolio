@@ -1,0 +1,481 @@
+
+* 
+{
+	box-size: border-box;
+}
+body{
+
+   
+}
+.container{
+    height: auto;
+    background-color: #DCDDD8;
+    background-origin: content-box;
+}
+.tittle{
+    height: 100px;
+    width: 100%;
+    background-color: #D74B4B;
+    border:2px solid #000;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    
+}
+@keyframes example {
+    from {background-color:#D74B4B;}
+    to {background-color: #354B5E;}
+}
+.tittle .image{
+    margin-left: 70px;
+    width: 90px;
+    height: 95px;
+    border-radius: 50%;
+    border:2px solid #000;
+    float: left;
+    
+}
+h3,p{
+    float: right;
+    color: antiquewhite;
+}
+h3{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-right: 50px;
+    font-family: serif;
+
+    
+}
+p{
+    margin-top: 60px;
+    margin-right: -160px;
+    font-family: cursive;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)
+ mobile & tablet */
+@media (max-width: 575px) {
+.tittle{
+    width: 100%;
+    overflow: hidden
+    }
+
+.tittle .image{
+    margin-left: 10px;
+    width: 90px;
+    height: 95px;
+    border-radius: 50%;
+    border:2px solid #000;
+    float: left;
+}
+h3,p{
+    float: right;
+    color: antiquewhite;
+    font-size: 15px;
+
+}
+    h3{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 50px;
+    font-family: serif;
+
+    
+}
+p{
+    margin-top: 43px;
+    margin-right: -160px;
+    font-family: cursive;
+}
+}
+/*----------------------------------------------------------------*/
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) { 
+    .tittle .image{
+    margin-left: 20px;
+}
+h3,p{
+    font-size: 17px;
+
+}
+    h3{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 50px;
+    font-family: serif;
+
+    
+}
+p{
+    margin-top: 45px;
+    margin-right: -160px;
+    font-family: cursive;
+}
+}
+
+
+/*----------------------------------------------------------------*/
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+    .tittle .image{
+    margin-left: 22px;
+}
+h3,p{
+    font-size: 20px;
+
+}
+    h3{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 50px;
+    font-family: serif;
+
+    
+}
+p{
+    margin-top: 47px;
+    margin-right: -170px;
+    font-family: cursive;
+}
+
+}
+
+/*----------------------------------------------------------------*/
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+    .tittle .image{
+    margin-left: 25px;
+}
+h3,p{
+    font-size: 20px;
+
+}
+    h3{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 50px;
+    font-family: serif;
+    
+}
+p{
+    margin-top: 47px;
+    margin-right: -170px;
+    font-family: cursive;
+}
+}
+
+/*----------------------------------------------------------------*/
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/*----------------------------------------------------------------*/
+
+
+
+
+
+ .row{
+   width: 100%;
+    height: 4px;
+     margin-top: 5px;
+    display: -webkit-box;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row .rw{
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    background-color: dimgrey
+}
+.photo{
+    width: 100%;
+    height: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.picture{
+    height: 500px;
+    width: 100%
+}
+@media (max-width: 575px) {
+    
+}
+h2{
+    text-align: center;
+    color: #D74B4B;
+    font-family: cursive;
+    text-decoration: underline
+}
+
+@media (max-width: 575px) {
+    h2{
+        font-size: 18px;
+    }
+}
+
+
+/*---------------------------------------*/
+
+.work{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    background-color: #354B5E
+}
+.ph-work{
+    width: 250px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.div1{
+    float:left;
+	height:250px;
+	width:33.33333%;
+}
+.div1 .p1{
+    margin-right: 200px;
+    color: #DCDDD8;
+}
+.p2 a {
+    text-decoration: none;
+    color: #1F6ED4;
+    
+}
+
+
+@media (max-width: 575px) {
+    .work{
+        height: 750px;
+    }
+.div1{
+    width: 100%;
+}
+.ph-work{
+    width: 60%;
+    height: 100px;
+    margin-left: 85px;
+}
+.div1 .p1{
+    margin-left: 0px;
+    margin-right: 48%;
+    font-size: 14px;
+}
+.p2 a {
+    text-decoration: none;
+    font-size: 14px;
+}
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) { 
+
+.work{
+        height: 600px;
+    }
+.div1{
+    width: 50%;
+}
+    #d3{
+        margin-left: 25%;
+    }
+.ph-work{
+    width: 60%;
+    height: 100px;
+    margin-left: 85px;
+}
+.div1 .p1{
+    margin-left: 0;
+    margin-right: 42%;
+    font-size: 16px;
+}
+.p2 a {
+    text-decoration: none;
+    font-size: 14px;
+}
+    
+
+}
+
+
+/*----------------------------------------------------------------*/
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+    .work{
+        height: 300px;
+    }
+.div1{
+    width: 33%;
+}
+
+.ph-work{
+    width: 70%;
+    height: 100px;
+    margin-left: 80px;
+}
+.div1 .p1{
+    margin-left: 0;
+    margin-right: 48%;
+    font-size: 15px;
+}
+.p2 a {
+    text-decoration: none;
+    font-size: 13px;
+}
+}
+
+/*----------------------------------------------------------------*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .work{
+        height: 300px;
+    }
+.div1{
+    width: 33%;
+}
+
+.ph-work{
+    width: 70%;
+    height: 100px;
+    margin-left: 80px;
+}
+.div1 .p1{
+    margin-left: 0;
+    margin-right: 40%;
+    font-size: 15px;
+}
+.p2 a {
+    text-decoration: none;
+    font-size: 13px;
+}
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+
+
+.footer
+{
+	overflow:hidden;
+	background-color: #D74B4B;
+	color:#4b5456;
+	padding:20px 0 ;
+	text-align:center;
+    border:2px solid #000;
+}
+.footer .social
+{
+	margin-top:10px;
+	margin-left:5px;
+}
+.footer .social .fa-twitter,.footer .social .fa-facebook ,.footer .social .fa-google-plus, .footer .social .fa-linkedin
+{
+	font-size:25px;
+	color:#191f21; 
+	background:#475F77; 
+	border-radius:50% ; 
+	width:50px;
+	height:50px;
+	line-height:50px;
+	transition:.5s;
+	
+}
+.footer .social .fa-twitter:hover, .footer .social .fa-facebook:hover,.footer .social .fa-google-plus:hover, .footer .social .fa-linkedin:hover
+{
+					
+	transform:rotateY(360deg);
+}
+.footer .social .fa-twitter:hover
+{
+	color:#55ACEE;
+	background:#292F33;
+}
+.footer .social .fa-facebook:hover
+{
+	color:#FFF;
+	background:#3B5998;
+}
+.footer .social .fa-google-plus:hover
+{
+	color:#FFF; 
+	background:#EA4335
+}
+.footer .social .fa-linkedin:hover
+{
+	color:#FFF; 
+	background:#004883;
+}
+
+
+@media (max-width: 575px) {
+    .footer .social .fa-twitter,.footer .social .fa-facebook ,.footer .social .fa-google-plus, .footer .social .fa-linkedin
+{
+	font-size:16px;
+	width:30px;
+	height:30px;
+	line-height:30px;	
+}
+}
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) { 
+    .footer .social .fa-twitter,.footer .social .fa-facebook ,.footer .social .fa-google-plus, .footer .social .fa-linkedin
+{
+	font-size:20px;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	
+}
+
+}
+
+
+/*----------------------------------------------------------------*/
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+    .footer .social .fa-twitter,.footer .social .fa-facebook ,.footer .social .fa-google-plus, .footer .social .fa-linkedin
+{
+	font-size:23px;
+	width:44px;
+	height:44px;
+	line-height:44px;
+	
+}
+
+
+}
+
+/*----------------------------------------------------------------*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .footer .social .fa-twitter,.footer .social .fa-facebook ,.footer .social .fa-google-plus, .footer .social .fa-linkedin
+{
+	font-size:24px;
+	width:45px;
+	height:45px;
+	line-height:45px;
+	
+}
+}
+
+/*----------------------------------------------------------------*/
+
+
+/*End footer*/
